@@ -1,0 +1,60 @@
+body {
+  padding-top: 30px;
+  background-image: url("./images/2016-05-Life-of-Pix-free-stock-lake-forest-fog-PaulJarvis_crop_compressed.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a{
+  color: #333333;
+}
+
+.main-view-div{
+  border-top: solid 1px #333333;
+  padding-top: 20px;
+}
+
+.navbar-brand{
+  padding: 15px 15px 15px 5px;
+}
+
+.navbar-right{
+  padding-right: 5px;
+}
+
+ul.nav a:hover{
+  background-color: transparent;
+  color: white;
+}
+
+ul.nav a:focus{
+  background-color: transparent;
+  color: #333333;
+}
+
+a:hover{
+  background-color: transparent;
+  color: white;
+}
+
+a:focus{
+  background-color: transparent;
+  color: #333333;
+}
+
+.heading-spacer{
+  visibility: hidden;
+}
+
+.name-div{
+  padding-right: 0;
+}
+
+.top-row{
+  padding-bottom: 15px;
+}
+
+.social-icons{
+  height: 20px;
+}
