@@ -4,7 +4,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   padding: 20px;
-
 }
 
 .container {
@@ -53,49 +52,33 @@ a:hover {
   margin-left: 12px;
 }
 
-/*
-
-.main-view-div{
-  border-top: solid 1px #333333;
-  padding-top: 20px;
+.header-social-links {
+  display: block;
 }
 
-.navbar-brand{
-  padding: 15px 15px 15px 5px;
+.main-social-links {
+  display: none;
 }
 
-.navbar-right{
-  padding-right: 5px;
-}
+/* Mobile */
+@media only screen and (max-width: 760px) {
 
-ul.nav a:hover{
-  background-color: transparent;
-  color: white;
-}
+  .social-link {
+    margin-left: 0;
+    display: block;
+    padding-top: 12px;
+  }
 
-ul.nav a:focus{
-  background-color: transparent;
-  color: #333333;
-}
+  .main {
+    padding-top: 12px;
+  }
 
-a:focus{
-  background-color: transparent;
-  color: #333333;
-}
+  .header-social-links {
+    display: none;
+  }
 
-.heading-spacer{
-  visibility: hidden;
-}
+  .main-social-links {
+    display: block;
+  }
 
-.name-div{
-  padding-right: 0;
 }
-
-.top-row{
-  padding-bottom: 15px;
-}
-
-.social-icons{
-  height: 20px;
-}
-*/
